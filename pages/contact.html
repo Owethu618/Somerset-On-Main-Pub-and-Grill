@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Somerset On Main Pub and Grill| Contact Us</title>
 </head>
 <body>
+    <header>
+        <!--Logo goes here-->
+        <!--Navigation Links go here-->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Enquiry</a>
+            <a href="#">Event Booking</a>
+
+        </nav>
+    </header>
+    <!--Main Section-->
+    <main>
+        <section>
+            <!--Main Paragraph-->
+            <h1 style="text-align: center; color:red;">Contact Us</h1>
+            <p style="font-size: medium; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Somerset On Main Pub and Grill, a place where you can waste your time usefully. 
+                Eating delicious food, enjoying the great community vibes. 
+                If you want to come and experience the delicious food and vibes ,come on down to Somerset On Main Pub and Grill in Somerset East/KwaNojoli. 
+                Or get in touch with us today and there's no best time but now</p><br/><br/>
+                <hr/> 
+        </section>
+        <!--Contact Information-->
+        <section>
+            <h1 style="color: red;">Get in Touch</h1>
+            <ul>
+                <li>
+                    Email: somersetonmain@gmail.com
+                </li>
+                <li>
+                    Phone: 042 243 1925
+                </li>
+                <li>
+                    Hours: Monday-Sunday, 11:00-22:00 SAST
+                </li>
+            </ul>
+            <br/><br/>
+            <hr/>
+        </section>
+        <!--Location Details-->
+        <section>
+            <h1 style="color: red;">Restaurant Establishment Location</h1>
+            <ul>
+                <li>
+                    Address: 33 Nojoli Street Somerset East 5850
+                </li>
+                <li>
+                    Map: View on Google Maps
+                </li>
+            </ul>
+            <!--Google Map-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.7523930555667!2d25.58497417546863!3d-32.719206673687914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ccc13959457f7%3A0xebe735cb7b68ce76!2sSomerset%20on%20Main!5e0!3m2!1sen!2sza!4v1786120969516!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <br/><br/>
+            <hr/>
+        </section>
+        <section>
+            <h1 style="color: red; text-align: center;">Booking Information</h1>
+            <form>
+                <label for="name" >Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                <label for="surname" name="surname">Your Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="Enter your surname" required><br><br>
+                <label for="event_type" name="event_type">Event Type:</label>
+                <select id="event_type" name="event_type" required>
+                    <option value="">School Staff End Year Function</option>
+                    <option value="">Birthday Party</option>
+                    <option vaue="">Chess Tournament</option>
+                    <option value="">Family Get Together</option>
+                    <option value="">Other</option>
+                </select><br><br>
+                <label for="date" name="date" >Event Date:</label>
+                <input type="date" id="date" name="date" placeholder="Select the date for your event" required><br><br>
+                <label for="time" name="time">Event Time:</label>
+                <input type="time" id="time" name="time" placeholder="Select the time for your event" required><br><br>
+                <label for="proof_of_payment" name="proof_of_payment">Proof of Payment:</label>
+                <input type="file" id="proof_of_payment" name="proof_of_payment" accept=".pdf,.jpg,.jpeg,.png" required><br><br>
+                <label for="message" name="message">Description of the event:</label>
+                <textarea id="message" name="message" placeholder="Enter a brief description of the event" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     
 </body>
 </html>
