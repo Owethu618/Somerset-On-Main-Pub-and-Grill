@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Somerset On Main Pub and Grill| Event Booking</title>
 </head>
 <body>
+    <header>
+        <!--Logo goes here-->
+        <!--Navigation Links go here-->
+        <nav>
+             <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="eventbooking.html">Event Booking</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!--Main Section-->
+    <main>
+        <section>
+            <!--Main Content-->
+            <h1 style="text-align: center; color:red">Event Booking</h1>
+            <p style="text-align: left; color:red">Please fill in the form below to book an event.</p>
+            <form action="submit_event_booking.php" method="post">
+                <label for="name_organization">Name of Organization:</label>
+                <input type="text" id="name_organization" name="name_organization" required><br/><br/>
+                <label for="contact_person">Contact Person:</label>
+                <input type="text" id="contact_person" name="contact_person" required><br/><br/>
+                <label for="cellphone_number">Cell Phone Number:</label>
+                <input type="tel" id="cellphone_number" name="cellphone_number" required><br/><br/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email for further communication" required><br/><br/>
+                <label for="event_date">Event Date:</label>
+                <input type="date" id="event_date" name="event_date" required><br/><br/>
+                <label for="event_time">Event Time:</label>
+                <input type="time" id="event_time" name="event_time" required><br/><br/>
+                <label for="event_type">Event Type:</label>
+                <select id="event_type" name="event_type" required>
+                    <option value="">Select an option</option>
+                    <option value="chess Open Day">Chess Open Day</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="Worker's Year closing Event">Worker's Year closing Event</option>
+                    <option value="other">Other</option>
+                    </select><br/><br/><hr/>
+                    <label for="additional_info">Additional Information:</label><br/>
+                    <textarea id="additional_info" name="additional_info" rows="4" cols="50" placeholder="Enter any additional information or special requests here..."></textarea><br/><br/>
+                    <button type="submit">Submit</button>
+            </form>
+
+        </section>
+    </main>
     
 </body>
 </html>
