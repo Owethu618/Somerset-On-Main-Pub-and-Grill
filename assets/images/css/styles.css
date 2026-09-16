@@ -74,14 +74,14 @@ z-index: 1000;
     font-family: Arial, sans-serif;
     font-size: 1.85rem;
     margin-bottom: 20px;
-	color: white;
-	animation: flash-animation 1s infinite;
+    color: white;
+    animation: flash-animation 1s infinite;
   }
   @keyframes flash-animation {
-  0% { color: blue; }
-  50% { color: white; }
-  100% { color: yellow; }
-}
+    0% { color: blue; }
+    50% { color: white; }
+    100% { color: yellow; }
+  }
 
    .hero-buttons {
     display: flex;
@@ -98,7 +98,7 @@ z-index: 1000;
     text-decoration: none;
     display: inline-block;
   }
- select.custom-dropdown, 
+select.custom-dropdown, 
 select.custom-dropdown::picker(select) {
   appearance: base-select;
 }
@@ -140,16 +140,17 @@ select.custom-dropdown option:hover {
 }
 
   .btn-primary {
-    background-color:#0066cc;
-    color: white;
+    background: var(--border-input);
+    color: #1a0f0a;
     border: 2px solid var(--brown-btn);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	border-radius: 999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 999px;
   }
   .btn-primary:hover{
-	  background-color: #0052a3; 
-  transform: translateY(-2px); 
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #0052a3; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
   }
 
    .btn-secondary {
