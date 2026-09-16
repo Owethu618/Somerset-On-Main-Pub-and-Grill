@@ -31,7 +31,7 @@ Student Number: ST10518932
 <img width="742" height="567" alt="Wireframe_Screenshot" src="https://github.com/user-attachments/assets/7532bdfe-9d95-4c60-9dc0-3b167f36adfd" />
 
 
-## Changelogs
+## Changelogs Part 1
 - Deleted Css stylings
 - Added Cocktail Menu and inserted into the menu.html
 - Added content to my webpages
@@ -44,6 +44,14 @@ Student Number: ST10518932
 - Made regular commits
 - Did regular comments throughout my code for Part 2
 -----------------------------------------------------------------
+
+
+## Changelogs Part 2
+- Created CSS folder and file which is styles.css
+- Coded default CSS styles
+- Styled my navigation bar
+- 
+- 
 
 ## References
 1.	Balme, C. (2025) How to write a website requirements document [with example templates]. Available at: https://banc.digital/blog/how-to-write-a-website-requirements-document/. (Accessed: 2 August 2026).
