@@ -26,7 +26,7 @@ html{
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #fff;
+  background:#3b2310;
   color: var(--text-heading);
   line-height: 1.5;
 }
