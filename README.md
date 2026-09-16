@@ -35,6 +35,12 @@ Student Number: ST10518932
 - Created the structure of website and created the core pages.
 - Initial commit
 ---------------------------------------------------------------
+## Part 1 Feedback Corrections
+- Added a Wireframe to my website proposal
+- Made regular commits
+- Did regular comments throughout my code for Part 2
+-----------------------------------------------------------------
+
 ## References
 1.	Balme, C. (2025) How to write a website requirements document [with example templates]. Available at: https://banc.digital/blog/how-to-write-a-website-requirements-document/. (Accessed: 2 August 2026).
 
