@@ -27,6 +27,10 @@ Student Number: ST10518932
 ## SiteMap
 <img width="940" height="571" alt="image" src="https://github.com/user-attachments/assets/e5ff57e1-567f-469c-a458-9c1b7e0dc77f" />
 
+## Wireframe
+<img width="742" height="567" alt="Wireframe_Screenshot" src="https://github.com/user-attachments/assets/7532bdfe-9d95-4c60-9dc0-3b167f36adfd" />
+
+
 ## Changelogs
 - Deleted Css stylings
 - Added Cocktail Menu and inserted into the menu.html
