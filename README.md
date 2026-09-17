@@ -53,6 +53,8 @@ Student Number: ST10518932
 - Added a background color to all of my webpages
 - Aligned my contents in a professional manner
 - Fixed my buttons so that they relate to each other for consistency
+- Inserted a background Image in the homepage
+- Merged branch main
 - 
 
 ## References
