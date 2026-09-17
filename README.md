@@ -50,7 +50,9 @@ Student Number: ST10518932
 - Created CSS folder and file which is styles.css
 - Coded default CSS styles
 - Styled my navigation bar
-- 
+- Added a background color to all of my webpages
+- Aligned my contents in a professional manner
+- Fixed my buttons so that they relate to each other for consistency
 - 
 
 ## References
