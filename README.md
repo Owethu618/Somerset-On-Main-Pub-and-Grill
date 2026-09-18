@@ -83,6 +83,8 @@ Student Number: ST10518932
 4.	Tripadvisor (n.d.) Somerset "On Main" Pub and Grill, Somerset East - menu, prices & restaurant reviews. Available at: https://www.tripadvisor.com/Restaurant_Review-g730056-d10717294-Reviews-Somerset_On_Main_Pub_and_Grill-Somerset_East_Eastern_Cape.html (Accessed: 1 August 2026).
 
 5.	Tristan (2026) How much does a website cost in South Africa? 2026 guide. Available at: https://dotdigital.co.za/website-cost-south-africa/.(Accessed: 4 August 2026).
+6.	Gray, D. (2022) CSS introduction and tutorial for beginners [Online video]. Available at: https://www.youtube.com/watch?v=0W6qz0-aDaM (Accessed: 09 September 2026).
+7.	W3Schools (n.d.) CSS tutorial. Available at: https://www.w3schools.com/css/default.asp (Accessed: 10 September 2026).
 
  
 
