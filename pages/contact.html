@@ -90,7 +90,7 @@
         </section>
         <section class="page-hero">
             <h1>Booking Information</h1>
-            <form class="contact-form">
+            <form action="mailto: owethumanene26@gmail.com" enctype="text/plain" method="post"  class="contact-form">
                 <label for="name" >Your Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
                 <label for="surname" name="surname">Your Surname:</label>
@@ -111,8 +111,9 @@
                 <input type="file" id="proof_of_payment" name="proof_of_payment" accept=".pdf,.jpg,.jpeg,.png" required><br><br>
                 <label for="message" name="message">Description of the event:</label>
                 <textarea id="message" name="message" placeholder="Enter a brief description of the event" required></textarea><br><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-			 <button type="submit" class="btn btn-primary">Submit</button>
+			 
         </section>
 
 
@@ -169,6 +170,70 @@
     <span>© 2026 Somerset On Main Pub and Grill. All rights reserved.</span>
     <span>Somerset East · KwaNojoli · Eastern Cape</span>
   </div>
+
+  <div class="timestamp" id="time"></div>
+
+  <script>
+    //Form input validation
+    function validateForm() {
+
+      const name = document.getElementById('name').value.trim();
+      const surname = document.getElementById('surname').value.trim();
+      const eventType = document.getElementById('event_type').value.trim();
+      const date = document.getElementById('date').value.trim();
+      const time = document.getElementById('time').value.trim();
+      const proofOfPayment = document.getElementById('proof_of_payment').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const errorMessage = document.getElementById('error-message');
+
+      errorMessage.textContent = '';
+      //validate input fields
+      if (name === '' || surname === '' || eventType === '' || date === '' || time === '' || proofOfPayment === '' || message === '') {
+        errorMessage.textContent = 'Please fill in all required fields.';
+        return false;
+      }
+
+      //Validate email
+      const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      if (!email.match(emailPattern)) {
+        errorMessage.textContent = 'Please enter a valid email address.';
+        return false;
+      }
+
+      //alert message for successful form submission
+      alert("Your form was submitted successfully!!!");
+            return true;
+
+      
+
+    }
+
+
+    //Inserting TimeStamp (Dynamic content)
+  function displayTime() {
+    const now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+
+    //Add leading zeros to single-digit minutes and seconds
+    hours = hours < 10 ? '0' + hours : hours;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+
+    const currentTime = hours + ':' + minutes + ':' + seconds;
+    document.getElementById('time').textContent = currentTime;
+
+
+  }
+  //Call displayTime function every second to update the time
+  setInterval(displayTime, 1000);
+
+  //Display the time immediately when the page loads
+  displayTime();
+  </script>
+
+
 </footer>
 </body>
 </html>
