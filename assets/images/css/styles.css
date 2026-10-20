@@ -513,8 +513,42 @@ textarea { min-height: 120px; resize: vertical; }
   color: #8f8377;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.datestamp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--brown-dark);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  z-index: 1001;
+}
+
+.accordion {
+  background-color: var(--brown-dark);
+  color: white;
+  cursor: pointer;
+  padding: 14px 28px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
 /* ============ RESPONSIVE ============ */
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   .navbar { padding: 14px 20px; flex-wrap: wrap; gap: 12px; }
   .navbar__links { flex-wrap: wrap; justify-content: center; }
   .page-hero, .page-intro, .contact-grid, .find-us, .form-section, .menu-section { padding-left: 20px; padding-right: 20px; }
