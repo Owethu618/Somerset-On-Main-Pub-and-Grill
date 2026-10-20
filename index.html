@@ -34,9 +34,18 @@
     <a href="pages/menu.html">Menu</a>
   </div>
 </nav>
+<!--Add a hamburger navigation for small devices responsiveness-->
+<div class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+  
+</div>
+
 </header>
 <!--Homepage Content-->
 <main>
+  <div class="datestamp" id="datestamp"></div>
  <section class="hero">
     <div class="hero-content">
       <div class="eyebrow">SOMERSET EAST · KWANOJOLI</div>
@@ -94,7 +103,7 @@
       <h4>FOLLOW US</h4>
       <!--Social Media Links-->
       <div class="footer__social">
-        <a href="https://www.facebook.com/SomersetOnMainPubandGrill" target="_blank"><i class="fa fa-facebook"></i></a>
+         <a href="https://www.facebook.com/SomersetOnMainPubandGrill" target="_blank" ><i class="fa fa-facebook"></i></a>
         <a href="https://www.instagram.com/somerset_on_main_pub_and_grill/" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
@@ -105,6 +114,28 @@
     <span>Somerset East · KwaNojoli · Eastern Cape</span>
   </div>
 </footer>
+
+<script>
+  //Activate Hamburger Navigation
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active'); // animate hamburger
+            });
+
+  //Date Stamp added
+  function displayDate() {
+    const today = new Date();
+
+    const dateStr = today.toDateString();
+    
+    document.getElementById("datestamp").innerHTML = "Today's Date: " + dateStr;
+  }
+
+  displayDate();
+</script>
 
 </body>
 </html>
