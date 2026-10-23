@@ -11,7 +11,7 @@ Student Number: ST10518932
         - Add font color
         - Add font style
         - Added appropriate background color
--Part 3: Add functionality using JavaScript
+- Part 3: Add functionality using JavaScript, interactive elements and Search Engine Optimisation (SEO)
 -----------------------------------------------------
 ## Website Goals and Obejects
 ### Goals
@@ -73,6 +73,26 @@ Student Number: ST10518932
 
 
 
+## Part 2 Feedback Corrections
+<!-- IMPORTANT: replace/extend these bullets with the EXACT feedback your lecturer gave you for Part 2 and say how you fixed each one -->
+- Fixed the hamburger menu: it was never shown on small screens and its JavaScript looked for a class that did not exist (`.nav-links`); it now uses `.navbar__links` and has a media query.
+- Fixed broken navigation links (`event-booking.html` -> `eventbooking.html`, wrong `../` paths in the footers and home page).
+- Fixed the footer logo paths and added meaningful `alt` text to all images.
+- Removed the flashing blue/white/yellow animation on the home page (accessibility) and replaced the off-palette blue hover colours with the site's orange accent.
+- Removed duplicate menu items (Chicken Strips, Cheddamelt Rump Steak) and fixed typos (Focaccia, Waiting, delicious).
+
+## Changelogs Part 3
+- Moved all JavaScript into separate files in `assets/js/` (`main.js`, `forms.js`, `search.js`, `lightbox.js`, `map.js`)
+- Interactive elements: working hamburger menu, FAQ accordion, back-to-top button, character counters, hover/focus states
+- Interactive map: Leaflet + OpenStreetMap on Contact Us with marker/pop-up, street/satellite layers, Get Directions, Show my location (distance) and Reset map
+- Gallery lightbox: 8-photo gallery on About Us and cocktail images on the Menu (next/previous, keyboard, swipe, Esc, captions, loading/error states)
+- Dynamic content and search: live clock, date stamp, time-of-day greeting, open/closed status (SAST), menu search + category filter with live result count
+- SEO: unique title, meta description and meta keywords on every page, canonical + Open Graph tags, JSON-LD structured data (Restaurant, Menu), one `<h1>` per page, `robots.txt`, `sitemap.xml`, descriptive image file names and alt text, width/height + lazy loading
+- Enquiry form: text, email, phone, dropdown, radio buttons, textarea, checkbox; validation with inline error messages; on-page response with reference number
+- Contact form: new contact form with validation that builds and opens an email (mailto)
+- Event Booking form: validation (past dates, opening hours, guest numbers) and email request
+- Moved CSS to `assets/css/styles.css` and renamed images to SEO-friendly names
+
 ## References
 1.	Balme, C. (2025) How to write a website requirements document [with example templates]. Available at: https://banc.digital/blog/how-to-write-a-website-requirements-document/. (Accessed: 2 August 2026).
 
@@ -85,7 +105,3 @@ Student Number: ST10518932
 5.	Tristan (2026) How much does a website cost in South Africa? 2026 guide. Available at: https://dotdigital.co.za/website-cost-south-africa/.(Accessed: 4 August 2026).
 6.	Gray, D. (2022) CSS introduction and tutorial for beginners [Online video]. Available at: https://www.youtube.com/watch?v=0W6qz0-aDaM (Accessed: 09 September 2026).
 7.	W3Schools (n.d.) CSS tutorial. Available at: https://www.w3schools.com/css/default.asp (Accessed: 10 September 2026).
-
- 
-
-
