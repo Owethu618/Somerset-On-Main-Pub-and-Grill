@@ -3,7 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somerset On Main Pub and Grill| Event Booking</title>
+    <title>Event Booking | Somerset On Main</title>
+
+    <!-- SEO: added -->
+    <meta name="description" content="Request a booking for birthdays, family gatherings, work functions or chess tournaments at Somerset On Main in Somerset East.">
+    <meta name="keywords" content="Somerset On Main, pub and grill, restaurant Somerset East, KwaNojoli, steak, ribs, cocktails, Eastern Cape">
+    <meta name="author" content="Owethu Manene">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e0e08">
+    <link rel="canonical" href="https://owethu618.github.io/Somerset-On-Main-Pub-and-Grill/pages/eventbooking.html">
+    <link rel="icon" type="image/jpeg" href="../assets/images/Somerset On Main Pub and Grill Logo.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Somerset On Main Pub and Grill">
+    <meta property="og:title" content="Event Booking | Somerset On Main Pub & Grill">
+    <meta property="og:description" content="Request a booking for birthdays, family gatherings, work functions or chess tournaments at Somerset On Main in Somerset East.">
+    <meta property="og:url" content="https://owethu618.github.io/Somerset-On-Main-Pub-and-Grill/pages/eventbooking.html">
+    <meta property="og:image" content="https://owethu618.github.io/Somerset-On-Main-Pub-and-Grill/assets/images/Somerset%20On%20Main%20Pub%20and%20Grill%20Logo.jpg">
+    <meta property="og:locale" content="en_ZA">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Event Booking | Somerset On Main Pub & Grill">
+    <meta name="twitter:description" content="Request a booking for birthdays, family gatherings, work functions or chess tournaments at Somerset On Main in Somerset East.">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I book an event?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Complete the booking request form on this page and we will contact you. A request is not confirmed until our team has spoken with you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of events can I host?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We welcome birthday celebrations, family gatherings, work functions and chess tournaments. Tell us about any other idea in the form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many guests can you accommodate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The form accepts up to 200 guests. Please call 042 243 1925 to confirm availability and seating for your date."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I request special dietary or seating arrangements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Use the 'Anything else we should know?' box in the form or tell us when we call you back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far ahead should I book?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend booking as early as possible, especially for weekends and holidays."
+      }
+    }
+  ]
+}
+    </script>
 
     <link rel="stylesheet" href="../assets/images/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +85,7 @@
         <div class="navbar__brand">
           <!--Logo-->
           <div class="logo-badge">
-        <img src="../assets/images/Somerset On Main Pub and Grill Logo.jpg " width="100%" height="100%" alt="Logo">
+        <a href="../index.html"><img src="../assets/images/Somerset On Main Pub and Grill Logo.jpg" width="100%" height="100%" alt="Logo"></a>
     </div>
             <div class="navbar__brand-text">
                 <span class="navbar__brand-name">Somerset <span class="accent">"On Main"</span></span>
@@ -38,39 +105,70 @@
 
         </nav>
     </header>
-    <!--Main Section-->
-    <main>
-        <section class="page-hero">
-            <!--Main Content-->
-            <h1>Event Booking</h1>
-            <p>Please fill in the form below to book an event.</p>
-            <form action="submit_event_booking.php" method="post">
-                <label for="name_organization">Name of Organization:</label>
-                <input type="text" id="name_organization" name="name_organization" required><br/><br/>
-                <label for="contact_person">Contact Person:</label>
-                <input type="text" id="contact_person" name="contact_person" required><br/><br/>
-                <label for="cellphone_number">Cell Phone Number:</label>
-                <input type="tel" id="cellphone_number" name="cellphone_number" required><br/><br/>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email for further communication" required><br/><br/>
-                <label for="event_date">Event Date:</label>
-                <input type="date" id="event_date" name="event_date" required><br/><br/>
-                <label for="event_time">Event Time:</label>
-                <input type="time" id="event_time" name="event_time" required><br/><br/>
-                <label for="event_type">Event Type:</label>
-                <select id="event_type" class="custom-dropdown" name="event_type" required>
-                    <option value="">Select an option</option>
-                    <option value="chess Open Day">Chess Open Day</option>
-                    <option value="birthday">Birthday</option>
-                    <option value="Worker's Year closing Event">Worker's Year closing Event</option>
-                    <option value="other">Other</option>
-                    </select><br/><br/><hr/>
-                    <label for="additional_info">Additional Information:</label><br/>
-                    <textarea id="additional_info" name="additional_info" rows="4" cols="50" placeholder="Enter any additional information or special requests here..."></textarea><br/><br/>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+    <main class="content-page">
+      <section class="page-banner">
+        <span class="menu-eyebrow">MAKE IT A MOMENT</span>
+        <h1>Bring your people together.</h1>
+        <p>Tell us about your celebration and we’ll help you plan a memorable gathering at Somerset On Main.</p>
+      </section>
+      <section class="form-layout">
+        <div class="form-aside form-aside--event">
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="A beautifully set table ready for a celebration" loading="lazy">
+          <div class="form-aside__caption"><span class="menu-eyebrow">CELEBRATE TOGETHER</span><h2>Good food makes every gathering better.</h2><p>Share your preferred date and event details. We recommend calling us to confirm availability.</p><a href="tel:+27422431925">042 243 1925</a></div>
+        </div>
+        <div class="form-panel">
+          <span class="menu-eyebrow">EVENT DETAILS</span>
+          <h2>Request a booking</h2>
+          <p class="form-panel__intro">A request is not confirmed until our team has spoken with you.</p>
+          <form class="site-form" data-local-only novalidate action="mailto: owethumanene26@gmail.com" enctype="text/plain" method="post">
+            <div class="form-field"><label for="name_organization">Organisation <span class="optional-label">(optional)</span></label><input type="text" id="name_organization" name="organization" autocomplete="organization" maxlength="100"></div>
+            <div class="form-field"><label for="contact_person">Contact person <span aria-hidden="true">*</span></label><input type="text" id="contact_person" name="contact_person" autocomplete="name" minlength="2" maxlength="80" required></div>
+            <div class="form-grid">
+              <div class="form-field"><label for="cellphone_number">Phone number <span aria-hidden="true">*</span></label><input type="tel" id="cellphone_number" name="phone" autocomplete="tel" inputmode="tel" pattern="[0-9+\s\-]{7,20}" placeholder="e.g. 042 243 1925" required></div>
+              <div class="form-field"><label for="booking_email">Email address <span aria-hidden="true">*</span></label><input type="email" id="booking_email" name="email" autocomplete="email" maxlength="120" placeholder="you@example.com" required></div>
+            </div>
+            <div class="form-grid">
+              <div class="form-field"><label for="event_date">Preferred event date <span aria-hidden="true">*</span></label><input type="date" id="event_date" name="event_date" required></div>
+              <div class="form-field"><label for="event_time">Preferred start time <span aria-hidden="true">*</span></label><input type="time" id="event_time" name="event_time" required></div>
+            </div>
+            <div class="form-grid">
+              <div class="form-field"><label for="event_type">Event type <span aria-hidden="true">*</span></label><select id="event_type" name="event_type" required><option value="">Choose an event</option><option value="Birthday celebration">Birthday celebration</option><option value="Family gathering">Family gathering</option><option value="Work function">Work function</option><option value="Chess tournament">Chess tournament</option><option value="Other">Other</option></select></div>
+              <div class="form-field"><label for="guest_count">Number of guests <span aria-hidden="true">*</span></label><input type="number" id="guest_count" name="guest_count" min="1" max="200" step="1" inputmode="numeric" required></div>
+            </div>
+            <div class="form-field" id="other-event-field" hidden><label for="other_event_type">Please specify the event <span aria-hidden="true">*</span></label><input type="text" id="other_event_type" name="other_event_type" minlength="2" maxlength="80"></div>
+            <div class="form-field"><label for="additional_info">Anything else we should know? <span class="optional-label">(optional)</span></label><textarea id="additional_info" name="additional_info" rows="4" maxlength="1200" placeholder="Dietary needs, seating preferences or other details"></textarea></div>
+            <button type="submit" class="btn btn-primary">Submit booking request <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
+      </section>
 
-        </section>
+      <!-- Accordion FAQ: added -->
+      <section class="faq-section" aria-labelledby="evt-faq-title">
+        <span class="menu-eyebrow">GOOD TO KNOW</span>
+        <h2 id="evt-faq-title">Event booking FAQ</h2>
+        <div class="accordion-group">
+          <div class="accordion-item">
+            <h3><button type="button" class="accordion-btn" id="evt-btn-1" aria-expanded="false" aria-controls="evt-panel-1">How do I book an event?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="evt-panel-1" role="region" aria-labelledby="evt-btn-1" hidden><p>Complete the booking request form on this page and we will contact you. A request is not confirmed until our team has spoken with you.</p></div>
+          </div>
+          <div class="accordion-item">
+            <h3><button type="button" class="accordion-btn" id="evt-btn-2" aria-expanded="false" aria-controls="evt-panel-2">What types of events can I host?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="evt-panel-2" role="region" aria-labelledby="evt-btn-2" hidden><p>We welcome birthday celebrations, family gatherings, work functions and chess tournaments. Tell us about any other idea in the form.</p></div>
+          </div>
+          <div class="accordion-item">
+            <h3><button type="button" class="accordion-btn" id="evt-btn-3" aria-expanded="false" aria-controls="evt-panel-3">How many guests can you accommodate?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="evt-panel-3" role="region" aria-labelledby="evt-btn-3" hidden><p>The form accepts up to 200 guests. Please call 042 243 1925 to confirm availability and seating for your date.</p></div>
+          </div>
+          <div class="accordion-item">
+            <h3><button type="button" class="accordion-btn" id="evt-btn-4" aria-expanded="false" aria-controls="evt-panel-4">Can I request special dietary or seating arrangements?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="evt-panel-4" role="region" aria-labelledby="evt-btn-4" hidden><p>Yes. Use the 'Anything else we should know?' box in the form or tell us when we call you back.</p></div>
+          </div>
+          <div class="accordion-item">
+            <h3><button type="button" class="accordion-btn" id="evt-btn-5" aria-expanded="false" aria-controls="evt-panel-5">How far ahead should I book?<span class="accordion-icon" aria-hidden="true"></span></button></h3>
+            <div class="accordion-panel" id="evt-panel-5" role="region" aria-labelledby="evt-btn-5" hidden><p>We recommend booking as early as possible, especially for weekends and holidays.</p></div>
+          </div>
+        </div>
+      </section>
     </main>
 
      <!--Footer Section-->
@@ -79,7 +177,7 @@
     <div class="footer__brand">
       <div class="footer__brand-top">
         <div class="logo-badge">
-        <img src="../assets/images/Somerset On Main Pub and Grill Logo.jpg " width="100%" height="100%" alt="Logo">
+        <img src="../assets/images/Somerset On Main Pub and Grill Logo.jpg" width="100%" height="100%" alt="Somerset On Main logo">
     </div>
         <div>
           <div class="footer__brand-name">Somerset "On Main"</div>
@@ -94,12 +192,12 @@
     <div class="footer__quicklinks">
       <h4>QUICK LINKS</h4>
       <ul class="footer__links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="pages/about.html">About Us</a></li>
-        <li><a href="pages/contact.html">Contact Us</a></li>
-        <li><a href="pages/enquiry.html">Enquiry</a></li>
-        <li><a href="pages/eventbooking.html">Event Booking</a></li>
-        <li><a href="pages/menu.html">Menu</a></li>
+         <li><a href="../index.html"><u>Home</u></a></li>
+        <li><a href="about.html"><u>About Us</u></a></li>
+        <li><a href="contact.html"><u>Contact Us</u></a></li>
+        <li><a href="enquiry.html"><u>Enquiry</u></a></li>
+        <li><a href="eventbooking.html"><u>Event Booking</u></a></li>
+        <li><a href="menu.html"><u>Menu</u></a></li>
       </ul>
     </div>
 <!--Establishments' physical address-->
@@ -119,11 +217,12 @@
     </div>
   </div>
 
-  <div class="footer__bottom">
+ <div class="footer__bottom">
+    <span>© 2026 Somerset On Main Pub and Grill. All rights reserved.</span>
     <span>Somerset East · KwaNojoli · Eastern Cape</span>
-    <p>&copy; 2023 Somerset On Main Pub and Grill. All rights reserved.</p>
   </div>
 </footer>
 
+<script src="../script.js"></script>
 </body>
 </html>

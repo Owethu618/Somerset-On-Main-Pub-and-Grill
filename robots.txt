@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://owethu618.github.io/Somerset-On-Main-Pub-and-Grill/sitemap.xml
