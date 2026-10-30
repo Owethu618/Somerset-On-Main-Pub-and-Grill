@@ -55,6 +55,11 @@ Student Number: ST10518932
 - Fixed my buttons so that they relate to each other for consistency
 - Inserted a background Image in the homepage
 - Merged branch main
+
+## Part 2 Feedback Corrections
+- Fixed the image layout on the about.html page and menu.html
+- Fixed how image adjusting is on a mobile device
+- Added extra breakpoints
 - 
 
 ## References
