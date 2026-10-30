@@ -802,6 +802,10 @@ img.lightbox-ready:focus-visible { outline: 3px solid var(--orange-accent); outl
   .lightbox__nav { width: 44px; height: 44px; }
 }
 
+.datetime-bar__date
+{
+  font-size: 14px; color: var(--text-body); margin-bottom: 6px;
+}
 /* ---------- map ---------- */
 .map-section { max-width: 1200px; margin: 0 auto; padding: 0 48px 40px; background: var(--bg-page); }
 .map-section h2 { font-family: 'Playfair Display', serif; margin-bottom: 14px; }
