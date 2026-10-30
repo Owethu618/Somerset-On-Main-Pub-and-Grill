@@ -62,6 +62,36 @@
           </form>
         </div>
       </section>
+      <!-- Accordion (FAQ) - assets/js/accordion.js -->
+      <section class="faq" aria-labelledby="faq-heading">
+        <span class="menu-eyebrow">QUICK ANSWERS</span>
+        <h2 id="faq-heading">Frequently asked questions</h2>
+
+        <button type="button" class="accordion" id="faq-btn-1" aria-expanded="false" aria-controls="faq-panel-1">What are your opening hours?</button>
+        <div class="panel" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1" hidden>
+          <p>We are open every day. Monday to Friday: 11:00 &ndash; 22:00. Saturday: 10:00 &ndash; 23:00. Sunday: 10:00 &ndash; 20:00.</p>
+        </div>
+
+        <button type="button" class="accordion" id="faq-btn-2" aria-expanded="false" aria-controls="faq-panel-2">Where can I find you?</button>
+        <div class="panel" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2" hidden>
+          <p>We are on Main Street, Somerset East, KwaNojoli, Eastern Cape. You can get directions from our Contact Us page.</p>
+        </div>
+
+        <button type="button" class="accordion" id="faq-btn-3" aria-expanded="false" aria-controls="faq-panel-3">How do I book an event or celebration?</button>
+        <div class="panel" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3" hidden>
+          <p>Fill in the request form on our <a href="eventbooking.html">Event Booking</a> page. A request is not confirmed until our team has spoken with you.</p>
+        </div>
+
+        <button type="button" class="accordion" id="faq-btn-4" aria-expanded="false" aria-controls="faq-panel-4">Are the menu prices and photos exact?</button>
+        <div class="panel" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4" hidden>
+          <p>Photos are representative and dishes are prepared fresh to order. Menu items and prices may change, so please ask our team about today&rsquo;s availability.</p>
+        </div>
+
+        <button type="button" class="accordion" id="faq-btn-5" aria-expanded="false" aria-controls="faq-panel-5">What is the best way to reach you quickly?</button>
+        <div class="panel" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5" hidden>
+          <p>For urgent questions or bookings, call us on <a href="tel:+27422431925">042 243 1925</a>.</p>
+        </div>
+      </section>
     </main>
  <!--Footer Section-->
        <footer class="footer">
@@ -113,10 +143,13 @@
     <span>© 2026 Somerset On Main Pub and Grill. All rights reserved.</span>
     <span>Somerset East · KwaNojoli · Eastern Cape</span>
   </div>
-  <script src="../assets/js/datetime.js" defer></script>
 </footer>
+<!--Timestamp (filled in by assets/js/timestamp.js)-->
+<div class="time-bar">Current date and time: <time id="timestamp"></time></div>
 
 <script src="../script.js"></script>
+<script src="../assets/js/timestamp.js" defer></script>
+<script src="../assets/js/accordion.js" defer></script>
 <script src="../assets/js/lightbox.js" defer></script>
 </body>
 </html>
