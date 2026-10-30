@@ -61,6 +61,12 @@ Student Number: ST10518932
 - Fixed how image adjusting is on a mobile device
 - Added extra breakpoints
 - Fixed Tablet Breakpoint for the max-width and min-width
+
+## Changelogs Part 3
+- Used JavaScript to do Form Validation for my forms on Contact.html, Enquiry.html, as well as EventBooking.html
+- Made use of an image lightbox for my images so that a user can make a specific image to display fully on a devices' screen
+- Inserted Search Engine Optimisation code to allow users to search for the meals that they like on Menu.html
+- Coded a code for a current date that keeps on updating everytime a user accesses the website.
   
 
 ## References
