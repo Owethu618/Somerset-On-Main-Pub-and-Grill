@@ -60,7 +60,8 @@ Student Number: ST10518932
 - Fixed the image layout on the about.html page and menu.html
 - Fixed how image adjusting is on a mobile device
 - Added extra breakpoints
-- 
+- Fixed Tablet Breakpoint for the max-width and min-width
+  
 
 ## References
 1.	Balme, C. (2025) How to write a website requirements document [with example templates]. Available at: https://banc.digital/blog/how-to-write-a-website-requirements-document/. (Accessed: 2 August 2026).
