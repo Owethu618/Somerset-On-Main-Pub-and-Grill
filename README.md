@@ -67,6 +67,7 @@ Student Number: ST10518932
 - Made use of an image lightbox for my images so that a user can make a specific image to display fully on a devices' screen
 - Inserted Search Engine Optimisation code to allow users to search for the meals that they like on Menu.html
 - Coded a code for a current date that keeps on updating everytime a user accesses the website.
+- Tried to insert a Timestamp at each webpage but it is not displaying.
   
 
 ## References
